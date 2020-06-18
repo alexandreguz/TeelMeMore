@@ -1,0 +1,80 @@
+
+ 
+   html {
+    margin: 0;
+    padding: 0;
+    background-color: #777;
+  }
+
+
+/* --------------- Main ------------------ */
+
+  body {
+    width: 95%;
+    margin: 0 auto;
+    font: 100% Arial, Helvetica, sans-serif;
+    padding: 1em 50px;
+    background: #d3cccc;
+    border-bottom: 10px solid gold;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0 0 .4em;
+    color: #ddd;
+    background-color: rgb(44, 45, 140);
+    padding: 5px 10px;
+  }
+  p {
+    line-height: 1.6;
+    text-align: justify;
+    width: 60%;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+  a {
+    text-decoration: none;
+    color: red;
+  }
+  a:hover {
+    color: black;
+  }
+  
+  .row.expanded .row {
+      margin-right: auto;
+      margin-left: auto;
+  }
+  
+  .busca-main .box { /* makes the light-grey frame in the search page */
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 20px 10px 20px 10px;
+  }
+
+  /* --------------- Navbar ------------------ */
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/* -------------------- Search Products in "reviews"------------------- */
+  .large-5 {
+    display: inline-block;
+  }
+
+
